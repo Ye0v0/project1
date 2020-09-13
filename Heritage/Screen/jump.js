@@ -217,7 +217,8 @@ export function PersonalTab() {
 function MyStack() {
     return (
       <Stack.Navigator headerMode="none">
-        <Stack.Screen name="WelcomeScreen" component={WelcomeScreen} options={{headerShown:false}} />
+        <Stack.Screen name="WelcomeScreen" component={WelcomeScreen}  options={{headerShown:false}}/>
+
         <Stack.Screen name="bottom_nav" component={bottom_nav}  options={{headerShown:false}}/>
         <Stack.Screen name="homerecommend" component={homerecommend} />
         <Stack.Screen name="homeinherit" component={homeinherit} />
